@@ -1,9 +1,9 @@
-img {
+.column img {
     filter: grayscale(80%);
     filter: blur(40%);
     transition: 0.3s;
   }
-img:hover{
+.column img:hover{
     cursor: pointer;
     filter: grayscale(0%);
     filter: blur(0%);
