@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');.box{
+    width: 100%;
+    height: 70vh;
+    background:black ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    position: relative;
+    z-index: 10;
+    background:-moz-linear-gradient(180deg, rgba(56, 178, 172, 1) 0%, rgba(39, 124, 120, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(56, 178, 172, 1) 0%, rgba(39, 124, 120, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(56, 178, 172, 1) 0%, rgba(39, 124, 120, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#277C78', endColorstr='#38B2AC', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(56, 178, 172, 1) 0%, rgba(39, 124, 120, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(56, 178, 172, 1) 0%, rgba(39, 124, 120, 1) 100%);
+}
+.svg{
+    width: 100%;
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+   
+    z-index: 8;
+
+}
+.svg2{
+    margin-top: -270px;
+    position: relative;
+    bottom:-19px;
+    z-index: 9;
+    background: #ffffff00;
+
+    /* padding-bottom: ; */
+}
+
+.events__head
+{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 2px; */
+    /* margin-top: 200px; */
+    /* align-self: flex-end; */
+    position: relative;
+    color: #055450;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+   background-color: #38b2ac;
+    z-index: 13;
+}
+.events__under__head
+{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+.text__color_event
+{
+    color: black;
+}
+.events__container{
+    /* display: flex; */
+    position: relative;
+    z-index: 10;
+    /* margin-top:-40vh ; */
+
+}

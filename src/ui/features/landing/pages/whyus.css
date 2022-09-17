@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.box1{
+    width: 100%;
+    height: 70vh;
+    /* background:black ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    position: relative;
+    z-index: 10;
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(180deg, rgba(202, 117, 88, 1) 0%, rgba(198, 164, 152, 1) 100%); 
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-linear-gradient(180deg, rgba(202, 117, 88, 1) 0%, rgba(198, 164, 152, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-linear-gradient(180deg, rgba(202, 117, 88, 1) 0%, rgba(198, 164, 152, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C6A498', endColorstr='#CA7558', GradientType=1 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(180deg, rgba(202, 117, 88, 1) 0%, rgba(198, 164, 152, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(180deg, rgba(202, 117, 88, 1) 0%, rgba(198, 164, 152, 1) 100%);
+}
+.svg4
+{
+    margin-top: -350px;
+}
+.svg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 8;
+
+}
+.svg2{
+    margin-top: -270px;
+    position: relative;
+    bottom:-19px;
+    z-index: 9;
+    background: #ffffff00;
+
+    /* padding-bottom: ; */
+}
+
+.whyus__head
+{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 2px; */
+    /* margin-top: 200px; */
+    /* align-self: flex-end; */
+    position: relative;
+    color: rgb(158, 56, 22);
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    margin-top: -10px;
+   background-color: rgb(202,117,88);
+    z-index: 13;
+}
+@keyframes animate2 {
+    0% {opacity: 0%;} 
+    100% {opacity: 100%;}
+  }
+  .whyus__head_under
+  {
+    font-family: 'Open Sans', sans-serif;
+    animation-name: animate2 ;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse ;
+  }
+.whyus__container{
+    /* display: flex; */
+    position: relative;
+    z-index: 10;
+    /* margin-top:-40vh ; */
+
+}
+
+
+#whyuss{
+    width: 100%;
+    padding: 70px 0;
+    color:#055450
+}
+.titletext{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.titletext p{
+    margin: auto;
+    font-size: 20px;
+    color: #055450;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display:inline-block
+}
+.titletext p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(rgb(0, 0, 0),white);
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    z-index: -1;
+    transform:rotate(10deg) ;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.titletext h1{
+    font-size: 50px;
+    color:#055450;
+}
+.whyus-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.whyuss{
+    color: #055450;
+    flex-basis: 50%;
+}
+.whyuss-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.whyuss-img img{
+    width: 50%;
+    border-radius: 10px;
+}
+.whyuss h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100px;
+    color: #055450 ;
+}
+.whyus-description{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.whyus-icon .fa{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0)
+    
+}
+.whyus-text{
+    padding: 2px 2px;
+    text-align: initial;
+}
+@media screen and (max-width: 770px) {
+    .titletext h1{
+        font-size: 35px;
+    }
+    .whyuss{
+        flex-basis: 50%;
+    }
+    .whyuss-img{
+        flex-basis: 100%;
+    }
+    .whyuss-img img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
