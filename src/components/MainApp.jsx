@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import { Login, Landing, Signup, Gallery, Whyus } from "./features";
 import { Navbar, Footer } from "./component";
 import JoinUs from "./features/landing/pages/JoinUs";
+import UpcomingIndex from "./features/upcoming/UpcomingIndex";
+
 
 function MainApp() {
   return (
@@ -13,7 +15,7 @@ function MainApp() {
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<Signup />} />
         <Route path="gallery" element={<Gallery />} />
-        <Route path="joinus" element={<JoinUs />} />
+        <Route path="joinus" element={<UpcomingIndex/>} />
       </Routes>
       <Footer />
     </div>
