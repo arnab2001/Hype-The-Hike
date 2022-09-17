@@ -1,0 +1,14 @@
+.page{
+    display: flex;
+    flex-direction:row;
+   
+
+}
+
+.join{
+    width:15vw;
+    padding: 2rem;
+}
+.cards{
+    width:80vw;
+}
