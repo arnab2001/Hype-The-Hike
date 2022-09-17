@@ -1,8 +1,6 @@
 import React from 'react'
 import './contact.css'
 import { FaDiscord, FaGithub, FaFacebookF, FaInstagram} from "react-icons/fa";
-import 'aos';
-import 'aos/dist/aos.css';
 export const Contact = () => {
 //   AOS.init();
   return (

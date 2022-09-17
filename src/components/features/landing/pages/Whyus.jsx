@@ -59,7 +59,7 @@ export const Whyus = () => {
           </div>
         </div>
       </div>
-      <div classNameName="svg3">
+      <div className="svg3">
         <BrownWaveIconInverted />
       </div>
     </>

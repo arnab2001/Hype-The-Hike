@@ -2,7 +2,7 @@
 video {
     object-fit: cover;
     width: 100%;
-    height:100vh;
+    height:190vh;
     position: fixed;
     z-index: -1;
     opacity: 40%;
@@ -12,7 +12,7 @@ video {
   } */
   .landing__container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ video {
   .landing__container  h1 {
     color: #fff;
     font-size: 100px;
-   
+    margin-top: -15rem;
   }
 
   .landing__container  p {

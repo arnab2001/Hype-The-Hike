@@ -10,7 +10,7 @@ export const Navbar = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -43,7 +43,7 @@ export const Navbar = () => {
         <div className='navbar-container'>
           <HashLink smooth to='/#landing' className='navbar-logo' onClick={closeMobileMenu}>
             HTH
-            <i class='fab fa-typo3' />
+            <i className='fab fa-typo3' />
           </HashLink>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
