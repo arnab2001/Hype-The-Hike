@@ -32,6 +32,11 @@
 
  
   }
+  .logo__style
+  {
+    height: 50%;
+    width: 50%;
+  }
   .navbar-container {
     display: flex;
     justify-content: center;

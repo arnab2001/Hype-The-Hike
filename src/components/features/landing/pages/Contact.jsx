@@ -9,19 +9,19 @@ export const Contact = () => {
     <div className='box4'>
     <div className="foot-row">
             <div className="foot-left">
-                <h1 className='color__change no__color' >
+                <h1 className='color__change' >
                     24/7 Support
                 </h1>
-                <p><i className="fa fa-clock-o" aria-hidden="true"></i>At your service</p>
-                <p><i className="fa fa-clock-o" aria-hidden="true"></i>Call: 033-234458910</p>
+                <em><p><i className="fa fa-clock-o" aria-hidden="true"></i>At your service</p></em>
+                <em><p><i className="fa fa-clock-o" aria-hidden="true"></i>Call: 033-234458910</p></em>
 
             </div>
             <div className="foot-right">
                 <h1 className='color__change'>
                     Send Us Mail
                 </h1>
-                <p>Send Us Mail<i className="fa fa-map-marker" aria-hidden="true"></i></p>
-                <p>bytebug@gmail.com<i className="fa fa-paper-plane" aria-hidden="true"></i></p>
+                <em><p>Any query<i className="fa fa-map-marker" aria-hidden="true"></i></p></em>
+                <em><p>bytebug@gmail.com<i className="fa fa-paper-plane" aria-hidden="true"></i></p></em>
                 {/* <p>+91 9674776719<i className="fa fa-phone"></i></p> */}
             </div>
         </div>

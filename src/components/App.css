@@ -10,6 +10,7 @@
 }
 body{
   background: var(--color-bg);
+  color: white;
   overflow-x: hidden;
 }
 text{

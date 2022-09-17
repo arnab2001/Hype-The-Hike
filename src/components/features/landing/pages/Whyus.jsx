@@ -11,6 +11,7 @@ export const Whyus = () => {
         </div>
         <div  className="whyus__head">Why us <p className="whyus__head_under">?</p></div>
         <div className="box1">
+        <em><p  className="whyus__under__head">These features make us the <span className="text__color_event">best</span></p></em>
           <div className="whyus-box">
             <div className="whyuss">
               <h1>Experienced Culinary</h1>
