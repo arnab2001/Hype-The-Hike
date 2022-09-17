@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import { Login, Landing, Signup, Gallery, Whyus } from "./features";
 import { Navbar, Footer } from "./component";
 
-function App() {
+function MainApp() {
   return (
     <div className="App">
       <Navbar />
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default MainApp;

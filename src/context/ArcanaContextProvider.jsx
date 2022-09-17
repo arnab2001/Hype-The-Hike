@@ -8,10 +8,13 @@ const ArcanaContextProvider=({children})=>{
     const Authconnection=async()=>{
         const appId = "2248";
         const auth = new AuthProvider(`${appId}`);
+        console.log(auth);
         setAuth(auth);
-        const position = "left"; // values - 'left' or 'right'
+        
+        const position = "right"; // values - 'left' or 'right'
   
         await auth.init({ appMode: 2, position });
+        
         };
 
 
@@ -20,8 +23,7 @@ const ArcanaContextProvider=({children})=>{
 
    useEffect(() => {
        Authconnection();
-   
-    
+       
    }, [])
    
     
