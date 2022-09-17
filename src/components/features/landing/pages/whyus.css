@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
 .box1{
     width: 100%;
     height: 70vh;
@@ -6,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: large;
     position: relative;
     z-index: 10;
@@ -51,14 +53,25 @@
 
     /* padding-bottom: ; */
 }
-
+.whyus__under__head
+{
+    color: white;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    letter-spacing: 7px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
 .whyus__head
 {
     display: flex;
     justify-content: center;
-    /* padding-top: 2px; */
-    /* margin-top: 200px; */
-    /* align-self: flex-end; */
+    text-shadow: 1px 1px 1px #b3b2b2,
+    1px 2px 1px #b3b2b2,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
     position: relative;
     color: rgb(158, 56, 22);
     font-size: 2.5rem;
@@ -94,7 +107,7 @@
 #whyuss{
     width: 100%;
     padding: 70px 0;
-    color:#055450
+    color:#044340
 }
 .titletext{
     text-align: center;
@@ -103,7 +116,7 @@
 .titletext p{
     margin: auto;
     font-size: 20px;
-    color: #055450;
+    color: #033e3b;
     font-weight: bold;
     position: relative;
     z-index: 1;

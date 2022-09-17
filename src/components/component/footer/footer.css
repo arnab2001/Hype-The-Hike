@@ -1,7 +1,20 @@
-.footer__container
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+.social__footer{
+    text-align: center;
+    background-color: black;
+}
+.social__footer p{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: aliceblue;
+
+}
+/* .footer__container
 {
     color: white;
     background-color: green;
     height: 10vh;
     width: 100vw;
-}
+} */
