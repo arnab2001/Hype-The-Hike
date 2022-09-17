@@ -1,8 +1,7 @@
 import React from 'react'
 import "./events.css" 
-import { ReactComponent as BrandIcon } from "./wave.svg";
-import {ReactComponent as WaveIcon} from "./wave2.svg";
-import {ReactComponent as WaveIconInverted} from "./wave3.svg";
+import WaveIcon from "./wave2.svg";
+import WaveIconInverted from "./wave3.svg";
 import ReactCardSlider from 'react-card-slider-component';
 
 const slides = [
@@ -22,7 +21,8 @@ const Events = () => {
     <div id="events" className="events__container">
          
         <div className="svg2">
-            <WaveIcon/>
+            {/* <WaveIcon/> */}
+            <img src={WaveIcon}/>
         </div>
         <div  id="events" className='events__head'>Upcoming Events</div>
     <div className='box'>
@@ -33,7 +33,8 @@ const Events = () => {
     </div>
     </div>
     <div className='svg3'>
-      <WaveIconInverted/>
+      {/* <WaveIconInverted/> */}
+      <img src={WaveIconInverted} />
     </div> 
     </>
 
