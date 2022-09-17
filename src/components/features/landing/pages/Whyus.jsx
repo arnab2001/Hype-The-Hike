@@ -1,13 +1,14 @@
 import React from "react";
 import "./whyus.css";
-import { ReactComponent as BrownWaveIcon } from "./wave4.svg";
-import { ReactComponent as BrownWaveIconInverted } from "./wave5.svg";
+import  BrownWaveIcon from "./wave4.svg";
+import BrownWaveIconInverted from "./wave5.svg";
 export const Whyus = () => {
   return (
     <>
       <div  className="whyus__container">
         <div id="whyus" className="svg4">
-          <BrownWaveIcon />
+          {/* <BrownWaveIcon /> */}
+          <img src={BrownWaveIcon}/>
         </div>
         <div  className="whyus__head">Why us <p className="whyus__head_under">?</p></div>
         <div className="box1">
@@ -61,7 +62,8 @@ export const Whyus = () => {
         </div>
       </div>
       <div className="svg3">
-        <BrownWaveIconInverted />
+        {/* <BrownWaveIconInverted /> */}
+        <img src={BrownWaveIconInverted}/>
       </div>
     </>
   );
