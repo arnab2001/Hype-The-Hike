@@ -66,23 +66,29 @@
 
 
 ### Inspiration:
-Currently, the ticketing system can't help people reflect on special moments from past events. Hence, NFTS have arrived to make tickets more functional and easy to collect for memories. A paper-based ticket may be lost, ruined due to water, and destroyed. Moreover, organizers do not get enough security with paper-based tickets--they can be easily faked. QR codes solve this challenge for organizers, but they're not that effective for guests purchasing them. With NFTS, you don't need to compromise, and the technology benefits organizers and guests,
-### What it does
+- Currently, the ticketing system can't help people reflect on special moments from past events. Hence, NFTs have arrived to make tickets more functional and easy to collect for memories. 
+- A tradition-based ticket may be lost or destroyed. 
+- Organizers do not get enough security with paper-based tickets thus they can be easily faked.
+- With NFTs, you don't need to compromise anymore and the technology benefits both the organizers and users.
+
+### What it does:
 - Empowers Community Driven tourism
-- In The landing Page user will be able to see upcoming events
-- To join an event user need to sign-in using **Arcana Auth**, Which generates a public key with which will be used for future identity
-- To Join A community , User need to go to the "Join Us" Sections where all the upcoming events are listed and There user can select their prefrred activity.
-- After choosing the activity , Person need to connect  **Metamask Wallet** to Mint their NFT which will act as their identity proof for rest of the event
-- **Third Wave** SDK is used to mint our NFTs
-- We Used **LightHouse** to store the images of NFTs in **IPFS** network instead centralized database system
--  
+- In The landing Page user will be able to see **upcoming events, features of our DAPP and contact us section**.
+- To join an event, user need to sign-in using **Arcana Auth**.
+- To Join A community , User need to go to the **"Join Us"** Sections where all the upcoming events are listed.
+- User can select their prefered event ,then choose the activity , after that the user needs to connect  **Metamask Wallet** to Mint their NFT which will act as their identity proof for rest of the event.
+- **ThirdWeb SDK** is used to mint NFTs.
+- We Used **LightHouse** to store the images of NFTs in **IPFS** network instead of centralized database system.
+
 ### Challenges we ran into:
-  - **ThirdWeb** is not compatible with Webpack so we had to migrate our codebase in middle of the hackathon
-  -  Many of SDKs were not build for production so we had to face a lot of bugs
-  -  We had trouble adding metadata's to NFT
-### What's Next For Our Project
-- NFT Marketplace , where one can sell their best travel photographs as NFTs 
-- Private NFT using **Arcana**
+  - **ThirdWeb** is not compatible with Webpack so we had to migrate our codebase in middle of the hackathon.
+  - **Arcana's SDKs** and **ThirdWeb SDK** were not build for production so we had to face a lot of bugs.
+  -  We had trouble adding metadatas to NFT.
+ 
+### What's Next For Our Project:
+- **NFT Marketplace** where one can sell their best travel photographs as NFTs.
+- Private NFT using **Arcana**.
+- **Expanding for families** too to join us for enjoying the beauty of nature. 
 
 <p align="right">(<a href="#read<img width="191" alt="an_logo_light_temp" src="https://user-images.githubusercontent.com/63441472/190889937-afb28215-5bb5-4115-83d2-f7afb73ef8f8.png">
 <me-top">back to top</a>)</p>
