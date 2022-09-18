@@ -16,7 +16,7 @@ const ArcanaContextProvider = ({ children }) => {
     const auth = new AuthProvider("2248");
 
     try {
-      const position = "left"; // values - 'left' or 'right'
+      const position = "right"; // values - 'left' or 'right'
 
       await auth.init({ appMode: 2, position });
 

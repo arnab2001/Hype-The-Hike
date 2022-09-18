@@ -4,6 +4,12 @@
    
 
 }
+.Flex-container{
+    padding: 2.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .join{
     width:15vw;

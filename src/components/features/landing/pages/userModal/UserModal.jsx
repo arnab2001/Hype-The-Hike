@@ -4,8 +4,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import Modal from "react-modal";
 import "./style.css";
 import { ethers } from "ethers";
-import axios from "axios"
-import lighthouse from "@lighthouse-web3/sdk"
+import axios from "axios";
+import lighthouse from "@lighthouse-web3/sdk";
 
 const customStyles = {
   content: {
@@ -26,6 +26,7 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 function UserModal() {
+
   let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
   const [Name, setName] = useState();
@@ -39,7 +40,7 @@ function UserModal() {
   );
 
   const wallet_address = useAddress();
-  const {mutate: mintNft, isLoading, error} = useMintNFT(nftCollection);
+  const { mutate: mintNft, isLoading, error } = useMintNFT(nftCollection);
 
   const sign_message = async () => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -73,13 +74,13 @@ function UserModal() {
     ).data.accessToken;
 
     // Push file to lighthouse node
-    try{
+    try {
       setImageHash(await lighthouse.deploy(e, accessToken));
       setFiles(null);
-    }catch(e) {
-      console.log(e)
-    } finally{
-      console.log(imageHash)
+    } catch (e) {
+      console.log(e);
+    } finally {
+      console.log(imageHash);
     }
     /*
       output:
@@ -100,12 +101,11 @@ function UserModal() {
       metadata: {
         contact: ContactNumber,
         userAddress: UserAddress,
-        image: `https://gateway.lighthouse.storage/ipfs/${imageHash.data.Hash}`
+        image: `https://gateway.lighthouse.storage/ipfs/${imageHash.data.Hash}`,
       },
       to: wallet_address,
-    })
-  }
- 
+    });
+  };
 
   function openModal() {
     setIsOpen(true);
@@ -176,9 +176,8 @@ function UserModal() {
                 className="choose-file"
                 id="choose-file"
                 type="file"
-                onChange={(e) =>{ 
-                  
-                  setFiles(e)
+                onChange={(e) => {
+                  setFiles(e);
                   console.log(e);
                 }}
               />
@@ -200,6 +199,5 @@ function UserModal() {
       </Modal>
     </div>
   );
-
-  }
+}
 export default UserModal;
