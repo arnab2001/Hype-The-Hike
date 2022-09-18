@@ -76,26 +76,30 @@ Currently, the ticketing system can't help people reflect on special moments fro
 - **Third Wave** SDK is used to mint our NFTs
 - We Used **LightHouse** to store the images of NFTs in **IPFS** network instead centralized database system
 -  
-Whats Next for HIH :
-
+### Challenges we ran into:
+  - **ThirdWeb** is not compatible with Webpack so we had to migrate our codebase in middle of the hackathon
+  -  Many of SDKs were not build for production so we had to face a lot of bugs
+  -  We had trouble adding metadata's to NFT
+### What's Next For Our Project
 - NFT Marketplace , where one can sell their best travel photographs as NFTs 
 - Private NFT using **Arcana**
 
 <p align="right">(<a href="#read<img width="191" alt="an_logo_light_temp" src="https://user-images.githubusercontent.com/63441472/190889937-afb28215-5bb5-4115-83d2-f7afb73ef8f8.png">
 <me-top">back to top</a>)</p>
-
+### What it does
 
 
 ### Built With
 
 
 
-- <img src = "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" style="margin-top: 40px" height=30px width=30px > **React** - for building the frontend UI 
-- <img src = "https://user-images.githubusercontent.com/63441472/190888196-9164551f-eb48-4da6-ab91-db17adad7c73.svg" height=30px width=30px>**Vite** - as Module bundler instead of webpack
-- <img src = "https://user-images.githubusercontent.com/63441472/190888540-0feb2866-f3b8-4094-b17f-4e04e16d2b38.jpg" height=40px width=40px > **Lighthouse**-   as __IPFS__ Storage
-- <img src = "https://user-images.githubusercontent.com/63441472/190889964-7760f99e-a7c7-4b28-bf44-a1659f7d8b76.png" height=30px width=80px> **Arcana**- for Authentication and storage
-- <img src = "https://user-images.githubusercontent.com/63441472/190890398-30a54b65-1e50-46f8-a862-2a929c389fb4.png" height=40px width=40px > **Thirdweb** - for Minting NFTs and providing with a marketplace 
-- <img src = "https://user-images.githubusercontent.com/63441472/190890501-54045447-d458-4413-a1fa-91a4216bfb44.svg" height=40px width=80px> -  Build on Top of **Polygon** chain
+- <img src = "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" style="margin-top: 40px" height=30px width=30px > **React** - for building the frontend UI <br> 
+- <img src = "https://user-images.githubusercontent.com/63441472/190888196-9164551f-eb48-4da6-ab91-db17adad7c73.svg" height=30px width=30px>**Vite** - as Module bundler instead of webpack <br>
+- <img src = "https://user-images.githubusercontent.com/63441472/190888540-0feb2866-f3b8-4094-b17f-4e04e16d2b38.jpg" height=40px width=40px > **Lighthouse**-   as __IPFS__ Storage <br>
+- <img src = "https://user-images.githubusercontent.com/63441472/190889964-7760f99e-a7c7-4b28-bf44-a1659f7d8b76.png" height=30px width=80px> **Arcana**- for Authentication and storage <br>
+- <img src = "https://user-images.githubusercontent.com/63441472/190890398-30a54b65-1e50-46f8-a862-2a929c389fb4.png" height=40px width=40px > **Thirdweb** - for Minting NFTs and providing with a marketplace <br>
+- <img src = "https://user-images.githubusercontent.com/63441472/190890501-54045447-d458-4413-a1fa-91a4216bfb44.svg" height=40px width=80px> -  Build on Top of **Polygon** chain <br>
+- <img src = "https://user-images.githubusercontent.com/63441472/190896166-4c7b9317-173f-47d7-9b5c-d19c77cf994c.svg" height=40px width=80px> - Deployed in **Spheron**
 
 
 
@@ -141,7 +145,10 @@ _How to setup this project_
   ```sh
   lighthouse-web3 import-wallet ./wallet.json
   ```
-5 
+5 run 
+  ```sh
+  npm start dev
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -157,7 +164,7 @@ _How to setup this project_
 
 <!-- ROADMAP -->
 ## Roadmap
-&nbsp; * **P0 features**
+&nbsp; 
 - [x] landing page
 - [x] Recent Events
 - [x] Login using Arcana
@@ -205,7 +212,7 @@ Distributed under the MIT License
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/sahilarora02/SkillValley-Project](https://github.com/sahilarora02/SkillValley-Project)
+Project Link: [https://github.com/arnab2001/Hype-The-Hike](https://github.com/arnab2001/Hype-The-Hike)
 Contributors : [sahilarora02](https://github.com/sahilarora02)
                [Arnab2001](https://github.com/arnab2001)
                [KajalKumari](https://github.com/developers-codz)
@@ -223,7 +230,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 
 * [NPM](https://www.npmjs.com/)
-* coming soon
+* React icons
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
