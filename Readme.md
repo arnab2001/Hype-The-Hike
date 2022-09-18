@@ -209,15 +209,6 @@ Distributed under the MIT License
 
 
 
-<!-- CONTACT -->
-## Contact
-
-Project Link: [https://github.com/arnab2001/Hype-The-Hike](https://github.com/arnab2001/Hype-The-Hike)
-Contributors : [sahilarora02](https://github.com/sahilarora02)
-               [Arnab2001](https://github.com/arnab2001)
-               [KajalKumari](https://github.com/developers-codz)
-               [Aqsa](https://github.com/aqsaaqeel)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
