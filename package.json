@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@lighthouse-web3/sdk": "^0.1.6",
     "@arcana/auth": "^0.1.1",
     "@arcana/storage": "^0.2.0",
     "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@lighthouse-web3/sdk": "^0.1.6",
     "@thirdweb-dev/react": "^3.0.2",
     "@thirdweb-dev/sdk": "^3.0.2",
     "axios": "^0.27.2",
     "ethers": "^5.7.1",
+    "node-html-to-image": "^3.2.4",
     "react": "^18.2.0",
     "react-card-slider-component": "^1.0.9",
     "react-dom": "^18.2.0",
