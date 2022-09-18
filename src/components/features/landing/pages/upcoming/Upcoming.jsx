@@ -12,21 +12,6 @@ const Upcoming = () => {
     <li class="cards_item">
       <Card/>
     </li>
-    <li class="cards_item">
-        <Card/>
-    </li>
-    <li class="cards_item">
-    <Card/>
-    </li>
-    <li class="cards_item">
-    <Card/>
-    </li>
-    <li class="cards_item">
-    <Card/>
-    </li>
-    <li class="cards_item">
-    <Card/>
-    </li>
   </ul>
 </div>
   )

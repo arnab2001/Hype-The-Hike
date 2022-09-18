@@ -20,7 +20,7 @@ function UpcomingIndex() {
     <>
       {address ? (
        <>
-        <h4>{address}</h4>
+        <h4 style={{color: "white"}}>{address}</h4>
         <button onClick={disconnect}>Disconnect</button>
        </>
       ) : (
@@ -29,9 +29,6 @@ function UpcomingIndex() {
     
     <div className='page'>
     
-    <div className='join'>
-        <UserModal/>
-        </div>
     <div className='cards'>
         <Upcoming/>
     </div>
