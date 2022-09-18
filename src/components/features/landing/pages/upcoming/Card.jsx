@@ -1,4 +1,5 @@
 import React from 'react'
+import UserModal from '../userModal/UserModal';
 import "./card.css";
 
 
@@ -10,7 +11,7 @@ function Card() {
         <div className="card_content">
           <h2 className="card_title">Card Grid Layout</h2>
           <p className="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
-          <button className="btn card_btn">Read More</button>
+          <UserModal/>
         </div>
       </div>
   )
